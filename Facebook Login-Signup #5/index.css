@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    width: 50%;
+    height: 100vh;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.heading h1 {
+    color: #17A9FD;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+    text-indent: -60px;
+}
+
+.heading h4 {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-indent: 80px;
+}
+
+.heading h5 {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-indent: -70px;
+}
+
+.page {
+    position: absolute;
+    top: 0;
+    right: 40px;
+    width: 45%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+.form {
+    height: 350px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:#ffffff8d;
+    align-items: center;
+    box-shadow: grey 2px 1px 2px 2px;
+    border-radius: 5px;
+}
+
+.form input {
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+     border: 1px solid black;
+     outline: none;
+    text-align:justify
+    
+}
+
+.LogIn {
+    width: 90%;
+    height: 40px;
+    margin-top: 15px;
+    background: #17A9FD;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.Create{
+    width: 50%;
+    height: 40px;
+    margin-top: 40px;
+    background: #17fd41;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.page a {
+    color:#17A9FD;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+#email-error{
+    display: none;
+    color: red;
+}
+#pass-error{
+    display: none;
+    color: red;
+}
+.form button a{
+    text-decoration: none;
+    color: #fff;
+}

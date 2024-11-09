@@ -1,0 +1,40 @@
+.container{
+    background:linear-gradient(45deg,red,yellow);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.container h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box{
+    background:black;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: 2px solid white;
+    }
+
+.box input{
+    padding: 15px;
+    width: 300px;
+    border: 1px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+#textP{
+    display: none;
+    font-size: 18px;
+}
